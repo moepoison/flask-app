@@ -1,5 +1,6 @@
 from flask import Flask, render_template, jsonify
 import os
+from stock_scraper import get_data
 
 
 app = Flask(__name__)
